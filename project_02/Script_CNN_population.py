@@ -161,7 +161,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Running Personalized CNN+LSTM on: {device.type.upper()}")
     
-    DATA_DIR = "/hhome/ricse/Epilepsy/"
+    DATA_DIR = "/hhome/ricse02/Epilepsy/"
     ROOT_DIR = "/hhome/ricse02/project_02/LSTM"
     H5_PATH = os.path.join(ROOT_DIR, "epilepsy_dataset.h5")
     BASE_OUTPUT = "/hhome/ricse02/project_02/result02/CNN_Population"
