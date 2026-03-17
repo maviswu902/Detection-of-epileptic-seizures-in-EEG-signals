@@ -134,7 +134,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Running Personalized CNN on: {device.type.upper()}")
     
-    DATA_DIR = "/hhome/ricse/Epilepsy/" 
+    DATA_DIR = "/hhome/ricse02/Epilepsy/" 
     NPZ_FILE = os.path.join(DATA_DIR, "chb01_seizure_EEGwindow_1.npz") 
     PARQUET_FILE = os.path.join(DATA_DIR, "chb01_seizure_metadata_1.parquet")
     PROJECT_DIR = "/hhome/ricse02/project_02"
